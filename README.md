@@ -25,7 +25,7 @@ This application was built using the following technologies:
 
 - To download the project follow the instructions bellow:
 
-1. `git clone https://github.com/ederfleming/factsgenerator`
+1. `git clone https://github.com/ederfleming/factgenerator`
 
 2. `cd factgenerator`
 
@@ -34,6 +34,10 @@ This application was built using the following technologies:
 3. `yarn install`
 
 4. `yarn start` 🥳
+
+# Project
+
+- The project can also be accessed and used through the link https://ederfleming.github.io/factgenerator/
 
 # Screenshots
 
