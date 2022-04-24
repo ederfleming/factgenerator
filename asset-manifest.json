@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/factgenerator/static/js/main.dcfa5aec.chunk.js",
+    "main.js.map": "/factgenerator/static/js/main.dcfa5aec.chunk.js.map",
+    "runtime-main.js": "/factgenerator/static/js/runtime-main.de149976.js",
+    "runtime-main.js.map": "/factgenerator/static/js/runtime-main.de149976.js.map",
+    "static/js/2.692d7d7f.chunk.js": "/factgenerator/static/js/2.692d7d7f.chunk.js",
+    "static/js/2.692d7d7f.chunk.js.map": "/factgenerator/static/js/2.692d7d7f.chunk.js.map",
+    "index.html": "/factgenerator/index.html",
+    "static/js/2.692d7d7f.chunk.js.LICENSE.txt": "/factgenerator/static/js/2.692d7d7f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de149976.js",
+    "static/js/2.692d7d7f.chunk.js",
+    "static/js/main.dcfa5aec.chunk.js"
+  ]
+}
