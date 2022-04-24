@@ -35,26 +35,6 @@ export const FactContainer = styled.article`
   position: relative;
   user-select: none;
   margin-bottom: 4rem;
-
-  .container:before {
-    content: "“";
-    font-size: 10em;
-    position: absolute;
-    top: 1rem;
-    left: -1rem;
-    color: #666;
-    z-index: -1;
-  }
-
-  .container:after {
-    content: "”";
-    font-size: 10em;
-    position: absolute;
-    top: 5rem;
-    right: -1rem;
-    color: #666;
-    z-index: -1;
-  }
 `;
 
 export const Fact = styled.blockquote`
@@ -74,15 +54,13 @@ export const Fact = styled.blockquote`
     color: #fff79e;
   }
 
-  strong:first-child {
-    margin-left: 8px;
-    letter-spacing: 0;
-  }
-
-  strong:last-child {
-    font: 2em;
-    text-transform: uppercase;
-    letter-spacing: 0;
+  :first-letter {
+    font: 2em "Sketch Block";
+    text-transform: upper-case;
+    float: left;
+    line-height: 0.52em;
+    position: relative;
+    z-index: 1;
   }
 
   em {
@@ -103,10 +81,6 @@ export const Fact = styled.blockquote`
     :first-line {
       font: 1.85em "Sketch Block";
       color: #fff79e;
-    }
-
-    em {
-      border-bottom: 2px dotted #858585;
     }
   }
 `;
